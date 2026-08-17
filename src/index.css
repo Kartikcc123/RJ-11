@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --editorial-crimson: #96281B;
+    --editorial-crimson-hover: #7D2116;
+    --editorial-gold: #C5A059;
+    --editorial-bg: #FDFCF8;
+    --editorial-surface: #F5F2ED;
+    --editorial-dark: #1A1A1A;
+    --editorial-text: #1A1A1A;
+    --editorial-muted: #4A4A4A;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #FDFCF8;
+    color: #1A1A1A;
+  }
+
+  h1, h2, h3, .font-editorial, .font-serif {
+    font-family: 'Cormorant Garamond', 'Cinzel', serif;
+  }
+
+  .font-royal {
+    font-family: 'Cinzel', 'Cormorant Garamond', serif;
+  }
+
+  .font-serif-vintage {
+    font-family: 'Cormorant Garamond', serif;
+  }
+
+  .font-hindi {
+    font-family: 'Rozha One', serif;
+  }
+
+  .font-sans-editorial {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+/* Editorial Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F5F2ED;
+}
+::-webkit-scrollbar-thumb {
+  background: #C5A059;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #96281B;
+}
+
+/* Editorial subtle patterns and borders */
+.border-editorial-hairline {
+  border-color: rgba(26, 26, 26, 0.1);
+}
+
+.border-editorial-crimson {
+  border-color: rgba(150, 40, 27, 0.25);
+}
+
+.border-editorial-gold {
+  border-color: rgba(197, 160, 89, 0.35);
+}
+
+.editorial-rule {
+  height: 1px;
+  background-color: #96281B;
+}
+
+.card-hover-shadow {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card-hover-shadow:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 30px -10px rgba(26, 26, 26, 0.08);
+}
+

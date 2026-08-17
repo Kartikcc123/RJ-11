@@ -1,0 +1,6 @@
+{
+  "name": "Dal Baati Jaipur",
+  "description": "RJ 11 Rajasthani Churma Dal Baati - A Unit of RJ 11 Restaurant. Authentic Rajasthani Thali & Dal Baati Churma prepared in 100% pure desi ghee in Bani Park, Jaipur.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
