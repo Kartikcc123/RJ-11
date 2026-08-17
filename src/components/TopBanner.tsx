@@ -25,16 +25,16 @@ export const TopBanner: React.FC = () => {
 
         <div className="flex items-center gap-4">
           <span className="hidden sm:flex items-center gap-1.5 text-[#FDFCF8]/70">
-            <Heart className="w-2.5 h-2.5 text-[#96281B] fill-[#96281B]" />
-            Established 1994 • Bani Park
+            <Heart className="w-2.5 h-2.5 text-[#C5A059] fill-[#C5A059]" />
+            A Unit of RJ 11 Restaurant • Bani Park
           </span>
           <a
             id="top-banner-call-btn"
             href={`tel:${RESTAURANT_INFO.phone}`}
-            className="flex items-center gap-1.5 text-[#FDFCF8] hover:text-[#C5A059] font-medium bg-[#96281B] px-3 py-0.5 tracking-widest text-[10px] hover:bg-[#7D2116] transition-colors"
+            className="flex items-center gap-1.5 text-[#FDFCF8] hover:text-[#C5A059] font-medium bg-[#96281B] px-3 py-0.5 tracking-widest text-[10px] hover:bg-[#7D2116] transition-colors border border-[#C5A059]/30"
           >
             <Phone className="w-2.5 h-2.5 text-[#C5A059]" />
-            <span>Call: {RESTAURANT_INFO.phone}</span>
+            <span>Order / Book: {RESTAURANT_INFO.phone}</span>
           </a>
         </div>
       </div>

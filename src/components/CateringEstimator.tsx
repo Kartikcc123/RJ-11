@@ -21,7 +21,7 @@ export const CateringEstimator: React.FC = () => {
     if (liveJalebi) addonsList.push('Live Jalebi Counter (+₹50/plate)');
     if (jainCounter) addonsList.push('Dedicated Jain Counter (+₹30/plate)');
 
-    const msg = `*Namaste Dal Baati Jaipur!* 🙏
+    const msg = `*Namaste RJ 11 Rajasthani Churma Dal Baati!* 🙏
 I would like to inquire about Rajasthani Catering for an upcoming event.
 
 *Package:* ${currentPkg.name} (₹${currentPkg.pricePerPlate}/plate)
@@ -30,7 +30,7 @@ I would like to inquire about Rajasthani Catering for an upcoming event.
 *Add-ons:* ${addonsList.length > 0 ? addonsList.join(', ') : 'None'}
 *Estimated Budget:* ₹${totalCost.toLocaleString('en-IN')}
 
-Please share available dates and final quotation. Dhanyawad!`;
+Please share available dates and final quotation. Khamma Ghani Sa!`;
 
     const encoded = encodeURIComponent(msg);
     window.open(`https://wa.me/${RESTAURANT_INFO.whatsapp}?text=${encoded}`, '_blank');
